@@ -4,9 +4,3 @@ from django.http import HttpResponse
 
 def home(resquest):
     return render(resquest, 'recipes/home.html')
-
-def sobre(request):
-    return HttpResponse ('SOBRE 1')
-
-def contato(request):
-    return HttpResponse ('CONTATO teste')
